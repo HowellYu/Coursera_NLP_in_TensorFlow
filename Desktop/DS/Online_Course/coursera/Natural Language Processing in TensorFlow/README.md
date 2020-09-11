@@ -1,0 +1,25 @@
+## Natural Language Processing in TensorFlow
+DeepLearning.AI TensorFlow Developer Professional Certificate - Course 3
+- **Week 1**: Sentiment in text
+  - Tokenizer
+    - OOV (out-of-vocab)
+  - Padding
+    - Post (after)
+    - Truncating
+  - Text to Seq
+- **Week 2**: Word Embeddings
+  - Embedding
+  - WE Visualization Dashboard: http://projector.tensorflow.org/
+  - Hyperparameter tuning
+  - Splitting words into sub-tokens: case sensitive, punctuation kept
+    - Not working well with ffnn
+- **Week 3**: Sequence models
+  - Bi-LSTM
+  - Multiple Layer Bi-LSTM
+  - CNN
+  - Sarcasm with Bidirectional LSTM
+  - Sarcasm with 1D Convolutional Layer
+  - Overfitting: the model tends to overfit the training data since there might be OOV words in the validation data
+- **Week 4**: Sequence models and literature
+  - Text generation
+  - (Optional): text generation on character level
